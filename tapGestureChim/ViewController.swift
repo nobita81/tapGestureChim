@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var cuc2: UIView!
     
     
+    
+    
     var timer:Timer!
     var timerChim:Timer!
     let thoigian:Double = 10
