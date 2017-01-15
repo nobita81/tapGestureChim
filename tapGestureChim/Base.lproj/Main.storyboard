@@ -45,7 +45,7 @@
                                 <rect key="frame" x="-50" y="350" width="50" height="317"/>
                                 <color key="backgroundColor" red="0.92549020049999997" green="0.23529411850000001" blue="0.1019607857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-TQ-Jm7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjH-TQ-Jm7">
                                 <rect key="frame" x="30" y="20" width="315" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Ul7-aO-2uE"/>
@@ -54,7 +54,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chn-BQ-8Hh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chn-BQ-8Hh">
                                 <rect key="frame" x="30" y="74" width="315" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -90,6 +90,8 @@
                         <outlet property="cuc2" destination="Gy3-uu-o9x" id="LXN-Ye-F02"/>
                         <outlet property="imgChim" destination="mCL-jK-A66" id="bdf-bN-2Sa"/>
                         <outlet property="imgView" destination="ujQ-OY-IHR" id="eNN-HJ-GSM"/>
+                        <outlet property="lblDiem" destination="Chn-BQ-8Hh" id="Azc-RN-bKz"/>
+                        <outlet property="lblTen" destination="CjH-TQ-Jm7" id="P4P-YJ-z76"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
