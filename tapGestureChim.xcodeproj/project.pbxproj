@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210721AA1E2BC40F00DB82AF /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210721A91E2BC40F00DB82AF /* ViewControllerHome.swift */; };
+		21D13B1C1E2CC9F400300EFF /* trovedi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21D13B1B1E2CC9F400300EFF /* trovedi.mp3 */; };
 		AA4C85891DCD6812002B3120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C85881DCD6812002B3120 /* AppDelegate.swift */; };
 		AA4C858B1DCD6812002B3120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C858A1DCD6812002B3120 /* ViewController.swift */; };
 		AA4C858E1DCD6812002B3120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4C858C1DCD6812002B3120 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210721A91E2BC40F00DB82AF /* ViewControllerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		21D13B1B1E2CC9F400300EFF /* trovedi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trovedi.mp3; sourceTree = "<group>"; };
 		AA4C85851DCD6812002B3120 /* tapGestureChim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapGestureChim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4C85881DCD6812002B3120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA4C858A1DCD6812002B3120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				AA4C858F1DCD6812002B3120 /* Assets.xcassets */,
 				AA4C85911DCD6812002B3120 /* LaunchScreen.storyboard */,
 				AA4C85941DCD6812002B3120 /* Info.plist */,
+				21D13B1B1E2CC9F400300EFF /* trovedi.mp3 */,
+				210721A91E2BC40F00DB82AF /* ViewControllerHome.swift */,
 			);
 			path = tapGestureChim;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				AA4C85931DCD6812002B3120 /* LaunchScreen.storyboard in Resources */,
 				AA4C85901DCD6812002B3120 /* Assets.xcassets in Resources */,
 				AA4C858E1DCD6812002B3120 /* Main.storyboard in Resources */,
+				21D13B1C1E2CC9F400300EFF /* trovedi.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4C858B1DCD6812002B3120 /* ViewController.swift in Sources */,
+				210721AA1E2BC40F00DB82AF /* ViewControllerHome.swift in Sources */,
 				AA4C85891DCD6812002B3120 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
